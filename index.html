@@ -31,6 +31,27 @@
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+        ul.apps {
+            grid-template-columns: repeat(auto-fill, 100px); /* Create a 3-column grid */
+            display: grid;
+            list-style: none;
+            grid-row-gap: 16px;
+            text-align: center;
+        }
+        
+
+        ul.apps img {
+            border: 1px solid #E3DCDC;
+            width: 84px;
+            height: 84px;
+            border-radius: 15px;
+        }
+
+        ul.apps span {
+            color: #807B7B;
+            font-size: 12px;
+        }
     </style>
 </head>
 <body>
@@ -39,15 +60,90 @@
     <div class="container">
         <h2>Bart Cone</h2>
         <div>
-            I'm a hacker at heart who happens to love designing and building pixel perfect mobile apps.
+            <p>
+            I'm a hacker at heart who happens to love designing and building pixel perfect mobile apps and the backends to support them.
             <br /><br />
             I used to play in CTF competitions (hacking competitions) so I also enjoy reverse engineering, crypto and anything security related.
-            <br /><br />
+            </p>
+            <p>
             Here's an introduction to reverse engineering I wrote in 2017.
             <br /><br />
             <a href="https://github.com/bartcone/reverse-engineering-blog">https://github.com/bartcone/reverse-engineering-blog</a>
-            <br /><br />
-            Skyrange App Support <a href="mailto:bartcone@outlook.com">bartcone@outlook.com</a>
+        </p>
+            <p>
+            Email me: <a href="mailto:bartcone@outlook.com">bartcone@outlook.com</a>
+            </p>
+            <div>
+                <p>Apps I've either built or significantly contributed to.</p>
+            <ul class="apps">
+                <li>
+                    <img src="assets/skyrange.png">
+                    <span>
+                        Skyrange
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/mellow.png">
+                    <span>
+                        Mellow
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/delivery.jpeg">
+                    <span>
+                        BMW Delivery
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/dev.jpg">
+                    <span>
+                        MCIB
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/iv.jpeg">
+                    <span>
+                        BMW iV
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/dg.jpeg">
+                    <span>
+                        BMW DG
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/mc.jpeg">
+                    <span>
+                        BMC MC
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/drift.jpeg">
+                    <span>
+                        Drift
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/relay.jpeg">
+                    <span>
+                        BMW Relay
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/dev.jpg">
+                    <span>
+                        R+
+                    </span>
+                </li>
+                <li>
+                    <img src="assets/dev.jpg">
+                    <span>
+                        Observations
+                    </span>
+                </li>
+            </ul>
+            </div>
         </div>
     </div>
 </body>
